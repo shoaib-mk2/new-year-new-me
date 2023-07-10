@@ -13,14 +13,18 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 216px 0 166px 0;
 }
 
 .banner-container {
-    text-align: right;
-    max-width: 500px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.banner-content {
     width: 45%;
+    text-align: end;
     margin-left: auto;
-    padding: 216px 230px 364px 845px;
 }
 
 .banner-title {
@@ -31,8 +35,10 @@ header {
 .banner-description {
     color: #444343;
     font-size: 16px;
+    line-height: 26px;
     margin-top: 24px;
     margin-bottom: 32px;
+    width: 494px;
 }
 
 .btn-white {
@@ -65,6 +71,7 @@ header {
     width: 416px;
     color: #444343;
     margin-bottom: 16px;
+    line-height: 26px;
 }
 
 .fail-list {
@@ -108,4 +115,111 @@ header {
     color: #737272;
     font-size: 25px;
     width: 270px;
+}
+
+/* hand image part */
+#hand-img-section {
+    margin-bottom: 130px;
+}
+
+.hand-img {
+    width: 1140px;
+    margin: 0 auto;
+    background: url('../images/gradient3.png') no-repeat, url('../images/watch.png');
+    background-size: cover;
+    /* background-position: center; */
+    height: 300px;
+}
+
+.hand-img-content {
+    padding-top: 59px;
+    padding-left: 64px;
+}
+
+.hand-img-header {
+    color: #FFF;
+    font-size: 40px;
+    width: 459px;
+}
+
+.hand-btn {
+    color: #F15B22;
+    font-size: 20px;
+    padding: 20px 35px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* footer section start */
+footer {
+    background: #151414;
+    padding: 135px;
+}
+
+.foot-container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-title1 {
+    color: #F8F8F8;
+    font-size: 45px;
+}
+
+.foot-description {
+    width: 485px;
+    color: #FFF;
+    line-height: 26px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.email {
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.mobile {
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 32px;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.foot-title2 {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.input-email {
+    padding: 21px;
+    width: 325px;
+    font-size: 18px;
+    background: transparent;
+    border-color: #FFFFFF;
+    color: #F8F8F8;
+    border-radius: 8px;
+    margin: 30px 0 16px 0;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.subscribe-btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
 }
